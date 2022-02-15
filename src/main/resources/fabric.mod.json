@@ -3,13 +3,13 @@
   "id": "infinitelava",
   "version": "${version}",
   "name": "Infinite Lava",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This is a simple mod that modifies lava acting like water.",
   "authors": [
     "Derican"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Derican/infinite-lava-fabric"
   },
   "license": "CC0-1.0",
   "icon": "assets/infinitelava/icon.png",
