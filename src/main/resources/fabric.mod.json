@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitelava",
+  "version": "${version}",
+  "name": "Infinite Lava",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Derican"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/infinitelava/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.infinite.lava.InfiniteLava"
+    ]
+  },
+  "mixins": [
+    "infinitelava.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
